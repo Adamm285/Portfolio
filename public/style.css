@@ -3,6 +3,7 @@
 body {
   background: rgb(19, 19, 19);
   color: #fff;
+  overflow: hidden;
   font-family: "Noto Sans", sans-serif;
 }
 
