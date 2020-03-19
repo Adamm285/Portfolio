@@ -4,7 +4,7 @@ body {
   background: rgb(19, 19, 19);
   color: #fff;
   overflow: hidden;
-  font-family: "Noto Sans", sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .nav-bar {
@@ -18,7 +18,7 @@ body {
   background-color: black;
   overflow: hidden;
   z-index: 3;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  
 }
 
 .ulnav {
