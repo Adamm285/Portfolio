@@ -16,6 +16,7 @@
   grid-template-columns: 240px auto auto 240px;
 
   --stagger-delay: 100ms;
+  
 }
 
 @keyframes cardEntrance {
