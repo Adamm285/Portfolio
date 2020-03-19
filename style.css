@@ -91,12 +91,11 @@ body {
   justify-content: center;
   align-items: center;
   background: #272020;
-  font-size: 2.2rem;
   color: #fff;
   box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem,
     rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
   height: 100%;
-  width: 100%;
+  width: 98%;
   border-radius: 4px;
   transition: all 500ms;
   overflow: hidden;
@@ -156,9 +155,5 @@ button:hover {
     display: block;
   }
 }
-@media screen and (min-width: 600px){
-  .cards {
-    grid-template-columns: 12fr;
-}
-}
+
 

@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Portfolio</title>
 
@@ -15,15 +16,27 @@
 </head>
 
 <body>
-  <div class="topnav" id="myTopnav">
+  <!-- <div class="topnav" id="myTopnav">
     <a href="#home">Adam Murphy's Portfolio</a>
     <a href="mailto:AdamMurphySoftwareDev@gmail.com?Subject=JobOpportuinty"
       target="_top" class="active">AdamMurphySoftwareDev@gmail.com</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
       <i class="fa fa-bars"></i>
     </a>
+  </div> -->
+  <div class="topnav">
+    <a href="#home">Adam Murphy's Portfolio</a>
+    <!-- Navigation links (hidden by default) -->
+    <div id="myLinks">
+      <a href="mailto:AdamMurphySoftwareDev@gmail.com?Subject=JobOpportuinty" target="_top"
+        class="active">AdamMurphySoftwareDev@gmail.com</a>
+    </div>
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
   </div>
-  <section class="container animated-grid">
+  <section class="container animated-grid animated-column">
     <a href="https://adamm285.github.io/Littleandcomain/" class="card cards"
       style="background-image:url('./images/adamm285 (1).jpg')" alt="littleandco" title="Little & Co Inc.'s Website">
     </a>
@@ -73,6 +86,16 @@
       </div>
     </div>
   </section>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+  </script>
 </body>
 
 </html>

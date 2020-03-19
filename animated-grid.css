@@ -1,22 +1,43 @@
-.animated-grid {
-  height: 85vh;
-  margin-bottom: 200px;
+/* desktop */
+@media screen and (min-width: 600px) {
+  .animated-grid {
+    height: 85vh;
+    margin-bottom: 200px;
+    font-size: 3rem;
+    display: grid;
+    gap: 1rem;
 
-  display: grid;
-  gap: 1rem;
+    /* Explicit grid */
+    grid-template-areas:
+      "a  b  c  d"
+      "l  🌟 🌟 e"
+      "k  🌟 🌟 f"
+      "j  i  h  g";
 
-  /* Explicit grid */
-  grid-template-areas:
-    'a  b  c  d'
-    'l  🌟 🌟 e'
-    'k  🌟 🌟 f'
-    'j  i  h  g';
+    grid-template-rows: repeat(4, 25%);
+    grid-template-columns: 20% auto auto 20%;
 
-  grid-template-rows: repeat(4, 25%);
-  grid-template-columns: 240px auto auto 240px;
+    --stagger-delay: 100ms;
+  }
+}
 
-  --stagger-delay: 100ms;
-  
+/* mobile */
+@media screen and (max-width: 600px) {
+  .animated-column {
+    height: 85vh;
+    margin-bottom: 200px;
+    image-resolution: 90%; 
+    display: grid;
+    overflow-y: scroll;
+    overflow-x: none;
+    gap: 1rem;
+    grid-template-areas:
+    "a""b""c""d""e""f""g""h""i""j""k""l""🌟";
+    grid-template-rows: repeat(16, 25%);
+    grid-template-columns: 1fr;
+    --stagger-delay: 100ms;
+    font-size: small;
+  }
 }
 
 @keyframes cardEntrance {
