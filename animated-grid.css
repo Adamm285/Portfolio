@@ -1,9 +1,30 @@
 /* desktop */
+@media screen and (min-width: 1260px) {
+  .animated-grid {
+    height: 85vh;
+    margin-bottom: 200px;
+    font-size: 2.2rem;
+    display: grid;
+    gap: 1rem;
+
+    /* Explicit grid */
+    grid-template-areas:
+      "a  b  c  d"
+      "l  🌟 🌟 e"
+      "k  🌟 🌟 f"
+      "j  i  h  g";
+
+    grid-template-rows: repeat(4, 25%);
+    grid-template-columns: 20% auto auto 20%;
+
+    --stagger-delay: 100ms;
+  }
+}
 @media screen and (min-width: 600px) {
   .animated-grid {
     height: 85vh;
     margin-bottom: 200px;
-    font-size: 3rem;
+    font-size: 2rem;
     display: grid;
     gap: 1rem;
 
