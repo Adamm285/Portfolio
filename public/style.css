@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans&display=swap");
+
+body {
+  background: rgb(19, 19, 19);
+  color: #fff;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.nav-bar {
+  position: fixed;
+  top: 0;
+  margin-left: 0%;
+  padding: 0%;
+  height: 80px;
+  width: 100%;
+  color: gray;
+  background-color: black;
+  overflow: hidden;
+  z-index: 3;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.ulnav {
+  list-style-type: none;
+  margin-top: -27px;
+  margin-right: 5%;
+  padding: 0;
+  overflow: hidden;
+  text-align: right;
+}
+
+.heading_name {
+  color: white;
+  text-align: left;
+  margin-left: 10%;
+  height: -15%;
+  font-size: 2em;
+  font-weight: bold;
+  padding: 4%;
+}
+
+li,
+a {
+  color: gray;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #272020;
+  font-size: 2.2rem;
+  color: #fff;
+  box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem,
+    rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
+  height: 100%;
+  width: 100%;
+  border-radius: 4px;
+  transition: all 500ms;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card:hover, li a:hover {
+  box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em,
+    rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
+  transform: translateY(-3px) scale(1.1);
+}
+
+li a:hover {
+  background-color: #89e280;
+  color: white;
+}
+
+button {
+  background-color: #4aaaa5;
+  color: white;
+}
+
+button:hover {
+  background-color: rgb(13, 228, 146);
+  color: white;
+}
