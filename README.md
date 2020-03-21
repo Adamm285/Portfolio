@@ -1,8 +1,8 @@
-# Portfolio
+# Adam Murphy's Portfolio
 
 ![Project Image](https://cdn2.aoe.com/fileadmin/AOE.com/images/main_navigation/blog/Stock_Photos/written_pix/Fotolia_58569245_Software_Development_930_590_70.jpg)
 
-> This is My Portfolio to help you learn more about me.
+- This is My Adam Murphy's Portfolio to help you learn more about me.
 
 ---
 
@@ -17,7 +17,7 @@
 
 ## Description
 
-Responsive and Adaptable, this portfolio animation is based on CSS and is supported by JavaScript. Projects load-in as images in a clockwise motion leaving the center for a short bio. Images react to the pointer hovering over them and displays a short description of the project's scope. If you click-on the image it will load the GitHub repo page for the specific project, in which you can find a direct link to the published version in the description.
+Responsive and Adaptable, this Adam Murphy's Portfolio animation is based on CSS and is supported by JavaScript. Projects load-in as images in a clockwise motion leaving the center for a short bio. Images react to the pointer hovering over them and displays a short description of the project's scope. If you click-on the image it will load the GitHub repo page for the specific project, in which you can find a direct link to the published version in the description.
 
 #### Technologies
 
@@ -32,7 +32,7 @@ Responsive and Adaptable, this portfolio animation is based on CSS and is suppor
 
 ## References
 
-- ![Portfolio Page](https://adamm285.github.io/Portfolio/)
+- ![Adam Murphy's Portfolio Page](https://adamm285.github.io/Adam Murphy's Portfolio/)
 
 [Back To The Top](#read-me-template)
 
@@ -69,7 +69,7 @@ SOFTWARE.
 ## Author Info
 
 - LinkedIn - [@AdamMurphy](https://Linkedin.com/in/Adam-Murphy-73690bbb/)
-- Website - [Adam M Murphy](https://adamm285.github.io/Portfolio/)
+- Website - [Adam M Murphy](https://adamm285.github.io/Adam Murphy's Portfolio/)
 - Resume - [Adam Murphy Software Developer](https://docs.google.com/document/d/1GLxDLwlrQkmdugH2Xl9MsOv5Rz6rmzqqSrbzfTZ-R3E/edit?usp=sharing)
 
 [Back To The Top](#read-me-template)
