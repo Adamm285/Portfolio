@@ -2,7 +2,7 @@
 
 ![Project Image](https://cdn2.aoe.com/fileadmin/AOE.com/images/main_navigation/blog/Stock_Photos/written_pix/Fotolia_58569245_Software_Development_930_590_70.jpg)
 
-- This is My Adam Murphy's Portfolio to help you learn more about me.
+- This is My Portfolio to help you learn more about me.
 
 ---
 
