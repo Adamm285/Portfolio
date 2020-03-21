@@ -21,10 +21,10 @@
   }
 }
 /* half screen */
-@media screen and (max-width:1260px),(min-width: 600px) {
+@media screen and (max-width:1260px),(min-width: 700px) {
   .animated-grid {
     height: 85vh;
-    margin-bottom: 200px;
+    margin-bottom: auto;
     font-size: large;
     display: grid;
     gap: 1rem;
@@ -43,10 +43,10 @@
   }
 }
 /* mobile */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .animated-column {
     height: 85vh;
-    margin-bottom: 200px;
+    margin-bottom: auto;
     image-resolution: 100%; 
     display: grid;
     overflow-y: scroll;
@@ -57,7 +57,7 @@
     grid-template-rows: repeat(16, 25%);
     grid-template-columns: 1fr;
     --stagger-delay: 100ms;
-    font-size: small;
+    font-size: xx-small;
   }
 }
 
