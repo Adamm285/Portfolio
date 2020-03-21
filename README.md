@@ -42,7 +42,7 @@ Responsive and Adaptable, this Adam Murphy's Portfolio animation is based on CSS
 
 MIT License
 
-Copyright (c) [2020][Adam M Murphy]
+Copyright (c) [2020] [Adam M Murphy]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -69,7 +69,7 @@ SOFTWARE.
 ## Author Info
 
 - LinkedIn - [@AdamMurphy](https://Linkedin.com/in/Adam-Murphy-73690bbb/)
-- Website - [Adam M Murphy](https://adamm285.github.io/Adam Murphy's Portfolio/)
+- Website - [Adam M Murphy](https://adamm285.github.io/AdamMurphy'sPortfolio/)
 - Resume - [Adam Murphy Software Developer](https://docs.google.com/document/d/1GLxDLwlrQkmdugH2Xl9MsOv5Rz6rmzqqSrbzfTZ-R3E/edit?usp=sharing)
 
 [Back To The Top](#read-me-template)
