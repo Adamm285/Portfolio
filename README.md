@@ -11,6 +11,7 @@
 - [Description](#description)
 - [References](#references)
 - [License](#license)
+- [Screen Shot](#screen-shots)
 - [Author Info](#author-info)
 
 ---
@@ -32,7 +33,15 @@ Responsive and Adaptable, this Adam Murphy's Portfolio animation is based on CSS
 
 ## References
 
-- ![Adam Murphy's Portfolio Page](https://adamm285.github.io/Adam Murphy's Portfolio/)
+- [Adam Murphy's Portfolio Page](https://adamm285.github.io/AdamMurphy'sPortfolio/)
+
+[Back To The Top](#adam-murphy's-portfolio)
+
+---
+
+#### Screen Shots
+
+![landing page](./images/Capture1.PNG)
 
 [Back To The Top](#adam-murphy's-portfolio)
 
