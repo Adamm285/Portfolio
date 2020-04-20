@@ -3,6 +3,7 @@
   .animated-grid {
     height: 85vh;
     margin-bottom: 200px;
+    image-resolution: 100%;
     font-size: 2.2rem;
     display: grid;
     gap: 1rem;
@@ -24,6 +25,7 @@
 @media screen and (max-width:1260px),(min-width: 860px) {
   .animated-grid {
     height: 85vh;
+    image-resolution: 100%;
     margin-bottom: auto;
     font-size: large;
     display: grid;
