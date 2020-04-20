@@ -40,6 +40,9 @@ body {
   background-color: #4CAF50;
   color: white;
 }
+.fa fa-bars {
+  color: #ddd;
+}
 /* cards */
 /* .card a p {display:none;} */
 /* .card a:hover p {display:block;} */

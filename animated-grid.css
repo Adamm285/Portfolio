@@ -21,7 +21,7 @@
   }
 }
 /* half screen */
-@media screen and (max-width:1260px),(min-width: 700px) {
+@media screen and (max-width:1260px),(min-width: 860px) {
   .animated-grid {
     height: 85vh;
     margin-bottom: auto;
@@ -43,7 +43,7 @@
   }
 }
 /* mobile */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 860px) {
   .animated-column {
     height: 85vh;
     margin-bottom: auto;
