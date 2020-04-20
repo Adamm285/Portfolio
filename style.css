@@ -435,6 +435,6 @@ body {
   transition: .4s;
 }
 .square_btn:hover {
-  background-image: -webkit-linear-gradient(45deg, #FFC107 0%, #f76a35 100%);
-  background-image: linear-gradient(45deg, #FFC107 0%, #f76a35 100%);
+  background-image: -webkit-linear-gradient(45deg, rgb(153, 255, 175) 0%, #4CAF50 100%);
+  background-image: linear-gradient(45deg, rgb(197, 252, 208) 0%, rgb(29, 110, 32) 100%);
 }
